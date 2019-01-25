@@ -3,7 +3,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1125/eureka/
 server:
-  port: 8761
+  port: 8100
 spring:
   application:
     name: service-b
+
+hystrix:
+  metrics:
+    enabled: true
