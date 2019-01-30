@@ -8,6 +8,11 @@ spring:
   application:
     name: service-b
 
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
 hystrix:
   metrics:
     enabled: true
